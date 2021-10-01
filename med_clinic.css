@@ -1,0 +1,166 @@
+/* CSS for Medical Clinic*/
+/* CSS for header and footer of site*/
+.navs{
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.top{
+	padding-bottom: 30px;
+}
+.topers{
+	padding-left: 7px;
+	padding-right: 7px;
+	text-decoration: none;
+}
+.nav{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #353535;
+	text-decoration: none;
+}
+.socnet{
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #353535;
+}
+.foot{
+	width: 100%;
+	background-color: #E9E9E9;
+	padding-top: 50px;
+	padding-bottom: 200px; 
+}
+
+/* CSS for main_page.html */
+.mimage{
+	padding-bottom: 30px;
+}
+
+.mservices{
+	padding-bottom: 30px;
+}
+.services_images_1{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	word-spacing: 100px;
+}
+.services_images_2{
+	padding-top: 50px;
+	word-spacing: 100px;
+}
+.service_image{
+	width: 15%;
+}
+.main_more_btn{
+	font-size: 30px;
+	padding-top: 40px;
+}
+.mabout{
+	padding-bottom: 30px;
+}
+.main_about{
+	display: flex;
+	justify-content: space-evenly;
+}
+.main_about_desc{
+	font-size: 20px;
+}
+
+
+/* CSS for specialists.html*/
+.spe_spe{
+	padding: 70px 0px 50px 0px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.specialities{
+}
+.specialists{
+	padding: 0px 0px 0px 50px;
+}
+
+/* CSS for clinics.html */
+.clinics{
+	padding: 40px 0px 50px 50px;
+}
+.clinic_0{
+	display: flex;
+	justify-content: space-between;
+	width:  98%;
+	background-color: #E1FFD2;
+}
+.clinics_descs{
+	font-size: 20px;
+	padding: 60px 150px 0px 50px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/* CSS for about_us.html */
+.map{
+	padding: 30px 50px 30px 50px;
+}
+.certificates{
+	padding: 30px 0px 30px 100px;
+}
+.certificate{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.cert_desc{
+	font-size: 30px;
+}
+.btn {
+  	background-color: DodgerBlue;
+  	border-radius: 20px;
+  	border: none;
+  	color: white;
+  	padding: 12px 30px;
+  	font-size: 16px;
+  	cursor: pointer;
+  	font-size: 10px;
+}
+.btn:hover {
+  	background-color: RoyalBlue;
+}
+
+/* CSS for services.html */
+.services{
+	padding: 30px 0px 50px 0px;
+}
+.set_services{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+/**/
+.appoinment{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.inputs_titles{
+	width: 150px;
+	align-content: center;
+}
+
+.sign_in{
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+.sign_up{
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+.reg_service{
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+.input{
+	display: flex;
+	justify-content: center;
+}
