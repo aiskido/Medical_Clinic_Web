@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>AIMED clinic</title>
+	<link rel="shortcut icon" href="images/logo.png" type="images/logo">
+	<link rel="stylesheet" type="text/css" href="services_page.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,800&display=swap" rel="stylesheet">
+</head>
+<body style="background: rgb(180,226,243);
+background: radial-gradient(circle, rgba(180,226,243,1) 40%, rgba(234,234,234,1) 68%, rgba(107,215,255,1) 95%, rgba(233,233,233,1) 98%);">
+	<section id="header">
+		<div class="container-fluid pb-5">
+			<div class="container-fluid">
+				<span class="header_img_logo"><a href="main_page.html"><img src="images/logo.png", width="150px"></a></span>
+				<div align="center"><span class="header_text_logo">A<br>I<br>M<br>E<br>D</span></div>
+			</div>
+
+
+			<div class="offcanvas offcanvas-top" id="demo">
+  			<div class="offcanvas-header">
+    			<h3 class="offcanvas-title">Registration for call</h3>
+    			<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  			</div>
+  			<div class="offcanvas-body">
+    			<p>Please leave your contacts for a call</p>
+
+    			<form>
+    				<div class="row">
+      				<div class="col">
+        				<input type="text" class="form-control" placeholder="Enter your Fullname" name="fullname">
+      				</div>
+      				<div class="col">
+        				<input type="text" class="form-control" placeholder="Enter your Phone Number" name="phonenum">
+      				</div>
+    				</div>
+  				</form>
+  				<br>
+    			<button type="submit" class="btn btn-primary">Send</button>
+  			</div>
+			</div>
+
+			<div class="offcanvas offcanvas-end" id="demo_2">
+  			<div class="offcanvas-header">
+    			<h3 class="offcanvas-title">Search for:</h3>
+    			<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  			</div>
+  			<div class="offcanvas-body">
+    			<form class="d-flex">
+        			<input class="form-control me-2" type="text" placeholder="Search">
+        			<button class="btn btn-primary" type="button">Search</button>
+      			</form>
+  			</div>
+			</div>
+
+			
+			<div class="container-fluid" align="right">
+				<p class="header_text_top">
+					+7 (777) 255 55 55 &emsp;
+					<a href="reg_service.html" data-bs-toggle="offcanvas" data-bs-target="#demo">Reg for call</a>&emsp;
+					<button type="submit" data-bs-toggle="offcanvas" data-bs-target="#demo_2"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+				</p>
+			</div>
+
+			<div class="container p-5" align="center">
+				<ul class="nav nav-pills">
+    				<li class="nav-item">
+      					<a class="nav-link" href="main_page.html">HOME</a>
+    				</li>
+    				<li class="nav-item">
+      					<a class="nav-link" href="specialists_page.html">SPECIALISTS</a>
+    				</li>
+    				<li class="nav-item">
+      					<a class="nav-link active" href="services_page.html">SERVICES</a>
+    				</li>
+    				<li class="nav-item">
+      					<a class="nav-link" href="about_us_page.html">ABOUT US</a>
+    				</li>
+    				<li class="nav-item">
+      					<a class="nav-link" href="cabinet_page.html">CABINET</a>
+    				</li>
+    				<li class="nav-item">
+      					<a class="nav-link disabled" href="#" style="display: none;">supervisor</a>
+    				</li>
+  				</ul>
+		    </div>
+		</div>
+	</section>
+
+	<section id="paragraph_1">
+		<div class="container-fluid" align="center">
+			<h2>Please select service:</h2>
+		</div>
+		<div class="container-fluid">
+			<div id="id01" class="modal">
+ 				 <form class="modal-content animate" action="/action_page.php" method="post">
+    				<div class="imgcontainer">
+      				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    				</div>
+
+    				<div class="container">
+      				<label for="uname"><b>Fullname</b></label>
+      				<input type="text" placeholder="Enter your fullname" name="uname" required>
+
+      				<label for="psw"><b>Phone number</b></label>
+      				<input type="text" placeholder="Enter phone number" name="phnum" required>
+      
+      				<label for="psw"><b>Date and time</b></label>
+      				<input type="date" name="date" required>
+      				<input type="time" name="time" required>
+      				<button type="submit">Send</button>
+    				</div>
+  				</form>
+			</div>
+			<div class="container d-flex justify-content-around" id="paragraph_1_row">
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_dentist.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Dentistry</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_child.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Pediatrics</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_micros.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Neurology</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_antibio.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Therapy</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+			</div>
+			<div class="container d-flex justify-content-around" id="paragraph_1_row">
+
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_mutter.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Mammalogy</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_leafheart.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Surgery</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_bag.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Resuscitation</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_hearts.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Diagnostics</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+			</div>
+			<div class="container d-flex justify-content-around" id="paragraph_1_row">
+
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_bottle.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Oncology</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_smilingheart.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Endocrinology</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_family.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Psychology</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_lineheart.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Cardiology</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+			</div>
+			<div class="container d-flex justify-content-around" id="paragraph_1_row">
+
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_antibiotics.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Pulmonology</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_hand.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Dermatology</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_preg.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Gynecology</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+				
+					<div class="paragraph_1_service_desc" align="center">
+						<a href="cabinet_page.html"><img src="images/jpgs/types_ter.png" width="200px" height="250px"></a>
+						<p><a href="cabinet_page.html">Neurology</a></p>
+						<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Appoinment</button>
+					</div>
+			</div>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container" id="paragraph_1_container">
+      <label for="uname"><b>Fullname</b></label>
+      <input type="text_1" placeholder="Enter name and surname" name="uname" required>
+
+      <label for="phnnum"><b>Phone number</b></label>
+      <input type="text_1" placeholder="Enter phone number" name="phnum" required>
+      
+       <label for="dandt"><b>Date and time: &emsp;</b></label>
+      <input type="date" name="date" required>
+      &emsp;
+      <input type="time" name="time" required>
+        <br>
+      <button type="submit">Send</button>
+    </div>
+  </form>
+</div>
+
+		</div>
+	</section>
+
+	<section id="paragraph_2">
+	</section>
+
+	<section id="footer">
+		<div class="container-fluid pt-5 pb-5 d-flex justify-content-around" id="footer_1">
+			<div class="footer_texts_1">
+				<p >8 (777) 255 55 55</p>
+				<a href=""><p>AIMED@ins.com</p></a>
+				<p >Almaty, Lorem street</p>
+			</div>
+			<div class="footer_texts_2">
+				<p>Social Networks:</p>
+				<a class="socnet" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a class="socnet" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a class="socnet" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a class="socnet" href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+				<a class="socnet" href=""><i class="fa fa-telegram" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<div class="container-fluid bg-dark text-white" align="center" id="footer_2">
+			<i class="fa fa-copyright" aria-hidden="true"></i>
+			2021 All Rights Reserved.
+		</div>
+	</section>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>

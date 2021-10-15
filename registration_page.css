@@ -1,0 +1,114 @@
+/*Here is Header and Footer css: */
+a{
+	text-decoration: none;
+}
+p{
+	font-family: 'Playfair Display', serif;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+}
+h6{
+	font-family: 'Playfair Display', serif;
+}
+#header{
+	background-image: url(images/jpgs/medical_back_1.jpg);
+	height: 840px;
+	padding-bottom: 10px;
+	border-radius: 0 0 30px 30px;
+}
+.header_img_logo{
+	float: left;
+	padding-top: 25px;
+}
+.header_text_logo{
+	padding-top: 5px;
+	color: #08cc1f;
+	font-size: 28px;
+	float: left;
+	padding-left: 17px;
+	padding-right: 250px;
+}
+.offcanvas-body{
+	height: 800px;
+}
+.header_text_top{
+	font-family: normal;
+	font-size: 16px;
+}
+.header_text_top a{
+	padding-right: 25px;
+	padding-left: 20px;
+	text-decoration: none;
+}
+.header_text_top a:hover{
+	color: red;
+}
+.header_text_top button{
+	border: none;
+	background-color: white;
+	text-decoration: none;
+	color: RoyalBlue;
+}
+.header_text_top button:hover{
+	background-color: RoyalBlue;
+	color: white;
+}
+.nav-item{
+	padding-right: 20px;
+	font-size: 25px;
+}
+.nav-link:hover{
+	text-decoration: underline;
+}
+#footer_1{
+	border-radius: 20px 20px 0 0;
+	background-color: #E9E9E9;
+}
+.footer_texts_1{
+	font-size: 20px;
+}
+.footer_texts_1 p{
+	font-family: normal;
+}
+.footer_texts_1 a{
+	text-decoration: none;
+}
+.footer_texts_2{
+	font-size: 20px;
+}
+.footer_texts_2 p{
+	padding-left: 10px;
+}
+.socnet{
+	font-size: 25px;
+	padding-right: 10px;
+	color: #353535;
+}
+
+/*Here is paragraph_1 css: */
+#paragraph_1{
+	padding-top: 0px;
+	padding-bottom: 30px;
+}
+#paragraph_1_container{
+	padding-bottom: 50px;
+}
+h2{
+	color: #08cc1f;
+	padding-bottom: 20px;
+}
+h6{
+	padding-bottom: 5px;
+}
+#paragraph_1_container input{
+	width: 600px;
+	box-shadow: 0 0 2px 1px #08cc1f;
+}
+.paragraph_1_signs{
+	word-spacing: 100px;
+	padding-top: 30px;
+}
+.paragraph_1_signs button{
+	width: 200px;
+}

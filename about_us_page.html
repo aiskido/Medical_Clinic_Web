@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>AIMED clinic</title>
+	<link rel="shortcut icon" href="images/logo.png" type="images/logo">
+	<link rel="stylesheet" type="text/css" href="about_us_page.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,800&display=swap" rel="stylesheet">
+</head>
+<body style="background: rgb(180,226,243);
+background: radial-gradient(circle, rgba(180,226,243,1) 40%, rgba(234,234,234,1) 68%, rgba(107,215,255,1) 95%, rgba(233,233,233,1) 98%);">
+	<section id="header">
+		<div class="container-fluid pb-5">
+			<div class="container-fluid">
+				<span class="header_img_logo"><a href="main_page.html"><img src="images/logo.png", width="150px"></a></span>
+				<div align="center"><span class="header_text_logo">A<br>I<br>M<br>E<br>D</span></div>
+			</div>
+
+
+			<div class="offcanvas offcanvas-top" id="demo">
+  			<div class="offcanvas-header">
+    			<h3 class="offcanvas-title">Registration for call</h3>
+    			<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  			</div>
+  			<div class="offcanvas-body">
+    			<p>Please leave your contacts for a call</p>
+
+    			<form>
+    				<div class="row">
+      				<div class="col">
+        				<input type="text" class="form-control" placeholder="Enter your Fullname" name="fullname">
+      				</div>
+      				<div class="col">
+        				<input type="text" class="form-control" placeholder="Enter your Phone Number" name="phonenum">
+      				</div>
+    				</div>
+  				</form>
+  				<br>
+    			<button type="submit" class="btn btn-primary">Send</button>
+  			</div>
+			</div>
+
+			<div class="offcanvas offcanvas-end" id="demo_2">
+  			<div class="offcanvas-header">
+    			<h3 class="offcanvas-title">Search for:</h3>
+    			<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  			</div>
+  			<div class="offcanvas-body">
+    			<form class="d-flex">
+        			<input class="form-control me-2" type="text" placeholder="Search">
+        			<button class="btn btn-primary" type="button">Search</button>
+      			</form>
+  			</div>
+			</div>
+
+			
+			<div class="container-fluid" align="right">
+				<p class="header_text_top">
+					+7 (777) 255 55 55 &emsp;
+					<a href="reg_service.html" data-bs-toggle="offcanvas" data-bs-target="#demo">Reg for call</a>&emsp;
+					<button type="submit" data-bs-toggle="offcanvas" data-bs-target="#demo_2"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+				</p>
+			</div>
+
+			<div class="container p-5" align="center">
+				<ul class="nav nav-pills">
+    				<li class="nav-item">
+      					<a class="nav-link" href="main_page.html">HOME</a>
+    				</li>
+    				<li class="nav-item">
+      					<a class="nav-link" href="specialists_page.html">SPECIALISTS</a>
+    				</li>
+    				<li class="nav-item">
+      					<a class="nav-link" href="services_page.html">SERVICES</a>
+    				</li>
+    				<li class="nav-item">
+      					<a class="nav-link active" href="about_us_page.html">ABOUT US</a>
+    				</li>
+    				<li class="nav-item">
+      					<a class="nav-link" href="cabinet_page.html">CABINET</a>
+    				</li>
+    				<li class="nav-item">
+      					<a class="nav-link disabled" href="#" style="display: none;">supervisor</a>
+    				</li>
+  				</ul>
+		    </div>
+		</div>
+	</section>
+
+	<section id="paragraph_1">
+		<div class="container-fluid text-center">
+			<h2 class="paragraph_1_heading" align="center">Our clinics</h2>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<div class="paragraph_1_clinics">
+
+						<div id="demo_images" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators/dots -->
+  							<div class="carousel-indicators">
+    							<button type="button" data-bs-target="#demo_images" data-bs-slide-to="0" class="active"></button>
+    							<button type="button" data-bs-target="#demo_images" data-bs-slide-to="1"></button>
+    							<button type="button" data-bs-target="#demo_images" data-bs-slide-to="2"></button>
+  							</div>
+  <!-- The slideshow/carousel -->
+  							<div class="carousel-inner">
+    							<div class="carousel-item active">
+      							<img src="images/jpgs/1_building.jpg" alt="Los Angeles" class="d-block" style="width:100%; height: 510px">
+      							<div class="carousel-caption">
+        							<h3>Almaty</h3>
+        							<p>Lorem street, 2. &emsp; 8 (777) 200 02 02</p>
+      							</div>
+    							</div>
+   							 	<div class="carousel-item">
+      							<img src="images/jpgs/2_building.jpg" alt="Chicago" class="d-block" style="width:100%; height: 510px">
+      							<div class="carousel-caption">
+       							 	<h3>Shymkent</h3>
+        							<p>Lorem street, 77. &emsp; 8 (777) 777 77 77</p>
+      							</div> 
+    							</div>
+    							<div class="carousel-item">
+      							<img src="images/jpgs/3_building.jpg" alt="New York" class="d-block" style="width:100%; height: 510px">
+      							<div class="carousel-caption">
+        							<h3>Taraz</h3>
+        							<p>Lorem street, 8. &emsp; 8 (777) 800 08 08</p>
+      							</div>  
+    							</div>
+ 							 </div>
+  <!-- Left and right controls/icons -->
+  							<button class="carousel-control-prev" type="button" data-bs-target="#demo_images" data-bs-slide="prev">
+    							<span class="carousel-control-prev-icon"></span>
+  							</button>
+  							<button class="carousel-control-next" type="button" data-bs-target="#demo_images" data-bs-slide="next">
+    							<span class="carousel-control-next-icon"></span>
+  							</button>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col">
+					<div class="paragraph_1_map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.7760717424117!2d76.90778641544578!3d43.235154379137875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883692f027581ad%3A0x96c3ca45dc6e670f!2z0YPQu9C40YbQsCDQnNCw0L3QsNGB0LAsINCQ0LvQvNCw0YLRiyAwNTAwMDA!5e0!3m2!1sru!2skz!4v1633076382298!5m2!1sru!2skz" width="100%" height="510px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="paragraph_1_5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<div class="paragraph_1_5_item" align="center">
+						<h4>Almaty</h4>
+						<h5>Almaty region</h5>
+						<p class="paragraph_1_5_heads" align="left">CEO: &ensp; Askarbekov Aisar</p>
+						<p class="paragraph_1_5_timetable">Timetable:</p>
+						<p class="paragraph_1_5_time">
+							Monday-Friday: 08:00-18:00<br>
+							Saturday: 10:00-17:00<br>
+							Sunday: weekend
+						</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="paragraph_1_5_item" align="center">
+						<h4>Shymkent</h4>
+						<h5>Southern region</h5>
+						<p class="paragraph_1_5_heads" align="left">CEO: &ensp; Askarbekov Aisar</p>
+						<p class="paragraph_1_5_timetable">Timetable:</p>
+						<p class="paragraph_1_5_time">
+							Monday-Friday: 08:00-18:00<br>
+							Saturday: 10:00-14:00<br>
+							Sunday: weekend
+						</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="paragraph_1_5_item" align="center">
+						<h4>Taraz</h4>
+						<h5>Shambyl region</h5>
+						<p class="paragraph_1_5_heads" align="left">CEO: &ensp; Askarbekov Aisar</p>
+						<p class="paragraph_1_5_timetable">Timetable:</p>
+						<p class="paragraph_1_5_time">
+							Monday-Friday: 08:00-19:00<br>
+							Saturday: 10:00-18:00<br>
+							Sunday: weekend
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="paragraph_3">
+		<div class="container">
+			<h2 class="paragraph_3_heading" align="center">Our certificates</h2>
+			<div class="container">
+				<div class="paragraph_3_certificate">
+					<img src="images/pdf.png" width="70px">
+					<span class="paragraph_3_cert_desc">Aimed Polyclinic License</span>
+					<div class="paragraph_3_down_button" align="right">
+						<button class="paragraph_3_btn"><i class="fa fa-download"></i> Download</button>
+					</div>
+				</div>
+				<div class="paragraph_3_certificate">
+					<img src="images/pdf.png" width="70px">
+					<span class="paragraph_3_cert_desc">Rehabilitation license</span>
+					<div class="paragraph_3_down_button" align="right">
+						<button class="paragraph_3_btn"><i class="fa fa-download"></i> Download</button>
+					</div>
+				</div>
+				<div class="paragraph_3_certificate">
+					<img src="images/pdf.png" width="70px">
+					<span class="paragraph_3_cert_desc">License-CAE (2 for work with X-rays)</span>
+					<div class="paragraph_3_down_button" align="right">
+						<button class="paragraph_3_btn"><i class="fa fa-download"></i> Download</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="footer">
+		<div class="container-fluid pt-5 pb-5 d-flex justify-content-around" id="footer_1">
+			<div class="footer_texts_1">
+				<p >8 (777) 255 55 55</p>
+				<a href=""><p>AIMED@ins.com</p></a>
+				<p >Almaty, Lorem street</p>
+			</div>
+			<div class="footer_texts_2">
+				<p>Social Networks:</p>
+				<a class="socnet" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a class="socnet" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a class="socnet" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a class="socnet" href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+				<a class="socnet" href=""><i class="fa fa-telegram" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<div class="container-fluid bg-dark text-white" align="center" id="footer_2">
+			<i class="fa fa-copyright" aria-hidden="true"></i>
+			2021 All Rights Reserved.
+		</div>
+	</section>
+</body>
+</html>

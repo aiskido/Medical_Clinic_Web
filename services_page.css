@@ -1,0 +1,229 @@
+/*Here is Header and Footer css: */
+a{
+	text-decoration: none;
+}
+p{
+	font-family: 'Playfair Display', serif;
+}
+#header{
+	background-image: url(images/jpgs/medical_back_1.jpg);
+	height: 240px;
+	padding-bottom: 10px;
+	border-radius: 0 0 30px 30px;
+}
+.header_img_logo{
+	float: left;
+	padding-top: 25px;
+}
+.header_text_logo{
+	padding-top: 5px;
+	color: #08cc1f;
+	font-size: 28px;
+	float: left;
+	padding-left: 17px;
+	padding-right: 250px;
+}
+.offcanvas-body{
+	height: 800px;
+}
+.header_text_top{
+	font-family: normal;
+	font-size: 16px;
+}
+.header_text_top a{
+	padding-right: 25px;
+	padding-left: 20px;
+	text-decoration: none;
+}
+.header_text_top a:hover{
+	color: red;
+}
+.header_text_top button{
+	border: none;
+	background-color: white;
+	text-decoration: none;
+	color: RoyalBlue;
+}
+.header_text_top button:hover{
+	background-color: RoyalBlue;
+	color: white;
+}
+.nav-item{
+	padding-right: 20px;
+	font-size: 25px;
+}
+.nav-link:hover{
+	text-decoration: underline;
+}
+#footer_1{
+	border-radius: 20px 20px 0 0;
+	background-color: #E9E9E9;
+}
+.footer_texts_1{
+	font-size: 20px;
+}
+.footer_texts_1 p{
+	font-family: normal;
+}
+.footer_texts_1 a{
+	text-decoration: none;
+}
+.footer_texts_2{
+	font-size: 20px;
+}
+.footer_texts_2 p{
+	padding-left: 10px;
+}
+.socnet{
+	font-size: 25px;
+	padding-right: 10px;
+	color: #353535;
+}
+
+/*Here is paragraph_1 css: */
+#paragraph_1{
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+h2{
+	color: red;
+	font-family: normal;
+	padding-bottom: 50px;
+}
+.paragraph_1_service_desc{
+	width: 210px;
+	border: 1px solid royalblue;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 0 #000;
+}
+.paragraph_1_service_desc:hover{
+	border: 1px solid red;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 2px red;
+}
+.paragraph_1_service_desc a{
+	text-decoration: none;
+	color: #001fff;
+}
+#paragraph_1_row{
+	padding-bottom: 30px;
+}
+
+/*CSS of appoinment: */
+/* Full-width input fields */
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.paragraph_1_service_desc button {
+  background-color: #04AA6D;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.paragraph_1_service_desc button:hover {
+  background-color: royalblue;
+  opacity: 0.8;
+}
+#paragraph_1_container button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#paragraph_1_service_desc button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+#paragraph_1_container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
